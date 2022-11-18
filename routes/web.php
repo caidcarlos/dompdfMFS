@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/document', [DocumentController::class, 'index']);
 Route::get('/documentPDF', [DocumentController::class, 'download'])->name('download');
+Route::get('/document-i130', [DocumentController::class, 'downloadI130'])->name('download-i130');

@@ -15,10 +15,14 @@ class DocumentController extends Controller
     }
 
     public function download(){
-//        return $pdf->download('i-131.pdf');
         set_time_limit(600);
         $pdf = Pdf::loadView('document2print');
-//        return view('document2print');
         return $pdf->stream('invoice.pdf');
+    }
+
+    public function downloadI130(){
+        set_time_limit(600);
+        $pdf = Pdf::loadView('i130');
+        return $pdf->stream('I-130.pdf');
     }
 }
