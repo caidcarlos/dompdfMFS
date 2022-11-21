@@ -70,7 +70,7 @@
 }
 
 .bg-color-gray{
-    background-color: #B9B9B9;
+    background-color: #E0e0e0;
 }
 
 .header{
@@ -563,6 +563,7 @@ h4{
         <div class="separator" style="margin-top:4.25rem;">
             
         </div>
+
         <div class="mt-2">
             <div class="">
                 <div class="" style="float:left; width:70%;">
@@ -615,7 +616,7 @@ h4{
                             Resubmited
                         </div>
                     </div>
-                    <div class="w-full text border-top border-bottom" style="margin-left:45%; width:55%;">
+                    <div class="w-full text border-top border-bottom border-r" style="margin-left:45%; width:55%;">
                         <div class="mt-1 text-center" style="margin-bottom:4.8rem;">
                             <strong>Fee Stamp</strong>
                         </div>
@@ -634,7 +635,7 @@ h4{
                             Completed
                         </div>
                     </div>
-                    <div class="border-right border-bottom" style="width:84%; margin-left:16%;">
+                    <div class="border-right border-bottom border-r" style="width:84%; margin-left:16%;">
                         <div class="text font-bold text-center">
                             Section of Law/Visa Category
                         </div>
@@ -700,327 +701,487 @@ h4{
                         </div>
                     </div>
                 </div>
-                <div class="" style="float:center; width:30%; margin-left:70%;">
-                    <div class="text-center text font-bold">
+                <div class="border-top border-r border-bottom" style="float:center; width:30%; margin-left:70%;">
+                    <div class="text-center text font-bold" style="margin-bottom:9.88rem;">
                         Action Stamp
                     </div>
                 </div>
             </div>
-            <div>
+            <div style="margin-top:10.9rem;" class="w-full">
                 <div class="" style="float:left; width:50%;">
-                    <div class="text-small font-bold py-2 border-l border-r border-bottom px-1" style="float:left; width:30%;">
+                    <div class="text-small font-bold py-2 border-l border-r border-bottom px-1" style="float:left; width:19.55%;">
                         Approved
                     </div>
-                    <div class="text-small font-bold py-2 border-l border-r border-bottom px-1" style="width:70%; margin-left:30%;">
-                        Approved
+                    <div class="text-small pt-1 border-r border-bottom px-1" style="padding-bottom:1rem; width:80.45%; margin-left:22.15%;">
+                        Petition was filed on (Priority Date mm/dd/yyyy):
+                    </div>
+                    <div class="text-small font-bold py-2 border-l border-r border-bottom px-1" style="float:left; width:19.55%;">
+                        Returned
+                    </div>
+                    <div class="text-small pt-1 border-r border-bottom px-1" style="padding-bottom:1rem; width:80.45%; margin-left:22.15%;">
+                        PDR request granted/denied - New priority date  (mm/dd/yyyy):
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="mt-2 border sec-title-nob font-bold" style="margin-top:20rem;">
-            Part 1. Information About You
-        </div>
-        <!--Comienzo de columnas, página 1 -->
-        <div>
-            <!--Columna 1, página 1 -->
-            <div class="mt-2" style="float:left; width:48%;">
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.a.
-                    </div>
-                    <div class="" style="float:center; margin-left: 10%; width: 25%;">
-                        Family Name <br>
-                        <i>(Last Name)</i>
-                    </div>
-                    <div class="" style="float: right; margin-left: 35%; width: 65%;">
-                        <input type="text w-full" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-10">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.b.
-                    </div>
-                    <div class="" style="float:center; margin-left:10%; width: 25%;">
-                        Given Name <br>
-                        <i>(First Name)</i>
-                    </div>
-                    <div class="" style="float:right; margin-left:35%; width: 65%;">
-                        <input type="text w-full" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-10">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.c.
-                    </div>
-                    <div class="" style="float:center; margin-left:10%; width: 25%;">
-                        Middle Name
-                    </div>
-                    <div class="" style="float:right; margin-left:10%; width:65%;">
-                        <input type="text w-full" class="inputs">
-                    </div>
-                </div>
-                <div class="sec-title-nob italic mt-8"  style="height:1.1rem;">
-                    <div class="font-bold text" style="float:left;">
-                        Physical Address
-                    </div>
-                    <div class="link mt-2 font-bold" style="float:right;">
-                        (USPS ZIP Code Lookup)
-                    </div>
-                </div>
-                <div class="mt-2">
-                    <div class="font-bold text w-1-10" style="float:left;">
-                        2.a.
-                    </div>
-                    <div class="text" style="margin-left:10%; width: 90%;">
-                        In care of Name <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left">
-                        2.b.
-                    </div>
-                    <div class="" style="float:center; margin-left:10%; width: 25%;">
-                        Street Number <br>
-                        and Name
-                    </div>
-                    <div class="w-full" style="margin-left:35%; width: 65%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.c.
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:10%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Apt.
-                        </div>
-                        <div  style="float: right; width:50%;">
-                            <input type="checkbox" class="checkboxState">
-                        </div>
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:25%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Ste.
-                        </div>
-                        <div  style="float: right; width:50%;">
-                            <input type="checkbox" class="checkboxState">
-                        </div>
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:40%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Flr.
-                        </div>
-                        <div  style="float: right; width:50%;">
-                            <input type="checkbox" class="checkboxState">
-                        </div>
-                    </div>
-                    <div class="w-full" style="width: 45%; margin-left:55%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left">
-                        2.d.
-                    </div>
-                    <div class="" style="float:center; margin-left:10%; width: 25%;">
-                        City or Town
-                    </div>
-                    <div class="w-full" style="margin-left:35%; width:65%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.e.
-                    </div>
-                    <div class="" style="float:center; margin-left:10%; width: 15%;">
-                        State
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:25%;">
-                        <input type="text" class="inputs">
-                    </div>
-                    <div style="width: 5%; float:center; margin-left:40%;">
-
-                    </div>
-                    <div class="font-bold" style="width: 10%; float:center; margin-left:45%;">
-                        2.f.
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:55%;">
-                        ZIP Code
-                    </div>
-                    <div class="w-full" style="width: 30%; margin-left:70%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.g.
-                    </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%;">
-                        Postal Code
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float: left;">
-                        2.h.
-                    </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%;">
-                        Province
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left">
-                        2.i.
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:10%;">
-                        Country
-                    </div>
-                    <div class="w-full" style="width: 75%; margin-left:25%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Fin columna 1, empieza columna 2-->
-            <div class="mt-2" style="margin-left:52%; float:right; width:48%;">
-                <div class="italic mt-1 font-bold sec-title-nob">
-                    Other Information
-                </div>
-                <div class="mt-2 text w-full">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        3.
-                    </div>
-                    <div class="w-9-10 " style="margin-left: 10%;">
-                        Alien Registration Number (A-Number)
-                    </div>
+                <div class="border-r border-bottom" style="float:center; width:47.5%; margin-left:52.5%; font-size:.55rem;">
                     <div class="mt-1">
-                        <div style="width:49%; float:left;">
-                            &nbsp;
-                        </div>
-                        <div class="" style="margin-left:49%; width: 5%;">
-                            <img src="{{$playBase64}}" alt=">" width="10px" style="float:center;" class="mt-2">
-                        </div>
-                        <div class="mr-1 font-bold" style="float:center; width:5%; margin-left:54%; font-size:1rem;">
-                            A-
-                        </div>
-                        <div class="border w-full" style="margin-left:59%; width:auto;">
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; float:left; ">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 15px; float:center;">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 30px; float:center;">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 45px; float:center;">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 60px; float:center;">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 75px; float:center;">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 90px; float:center;">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 105px; float:center;">&nbsp;</div>
-                            <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 120px; ">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        4.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        Country of Birth <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        5.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%">
-                        Country of Citizenship <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        6.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        Class of Admission <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        7.
-                    </div>
-                    <div class="mt-1" style="width: 15%; float:center; margin-left:10%;">
-                        Gender
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:25%;">
-                        <div style="float:left; width:50%;">
+                        <div class="" style="float:left; width:5%;">
                             <input type="checkbox" class="checkboxState">
                         </div>
-                        <div class="mt-1" style="width:50%; margin-left:35%;">
-                            Male
+                        <div class="mt-2" style="float:center; width:28%; margin-left:5%;">
+                            Field Investigation
                         </div>
-                    </div>
-                    <div class="" style="width: 15%; margin-left:40%;">
-                        <div style="float:left; width:50%;">
+                        <div class="" style="float:center; width:5%; margin-left:33%;">
                             <input type="checkbox" class="checkboxState">
                         </div>
-                        <div class="mt-1" style="width:50%; margin-left:35%;">
-                            Female
+                        <div class="mt-2" style="float:center; width:28%; margin-left:38%;">
+                            Personal Interview
+                        </div>
+                        <div class="" style="float:center; width:5%; margin-left:66%;">
+                            <input type="checkbox" class="checkboxState">
+                        </div>
+                        <div class="mt-2" style="width:29%; margin-left:71%;">
+                            204(a)(2)(A) Resolved
                         </div>
                     </div>
+                    <div class="">
+                        <div class="" style="float:left; width:5%;">
+                            <input type="checkbox" class="checkboxState">
+                        </div>
+                        <div class="mt-2" style="float:center; width:28%; margin-left:5%;">
+                            Previously Forwarded
+                        </div>
+                        <div class="" style="float:center; width:5%; margin-left:33%;">
+                            <input type="checkbox" class="checkboxState">
+                        </div>
+                        <div class="mt-2" style="float:center; width:28%; margin-left:38%;">
+                            Pet. A-File Reviewed
+                        </div>
+                        <div class="" style="float:center; width:5%; margin-left:66%;">
+                            <input type="checkbox" class="checkboxState">
+                        </div>
+                        <div class="mt-2" style="width:29%; margin-left:71%;">
+                            I-485 Filed Simultaneously
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="" style="float:left; width:5%;">
+                            <input type="checkbox" class="checkboxState">
+                        </div>
+                        <div class="mt-2" style="float:center; width:28%; margin-left:5%;">
+                            203(g) Resolved
+                        </div>
+                        <div class="" style="float:center; width:5%; margin-left:33%;">
+                            <input type="checkbox" class="checkboxState">
+                        </div>
+                        <div class="mt-2" style="float:center; width:28%; margin-left:38%;">
+                            Ben. A-File Reviewed
+                        </div>
+                        <div class="" style="float:center; width:5%; margin-left:66%;">
+                            <input type="checkbox" class="checkboxState">
+                        </div>
+                        <div class="mt-2" style="margin-bottom:0.56rem; width:29%; margin-left:71%;">
+                            204(g) Resolved
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="border-bottom w-full border-r" style="margin-top:3.5rem;">
+                <div class="border-r border-l px-1 text py-2 font-bold" style="width:9.76%;">
+                    Remarks
                 </div>
-                <div class="mt-2 text w-full">
-                    <div class="w-1-10 font-bold mt-1"  style="float:left;">
-                        8.
+            </div>
+            <div class="border-bottom border-r border-l text" style="width:99.85%">
+                <div class="pl-1 py-2">
+                    At which USCIS office (e.g., NBC, VSC, LOS, CRO) was Form I-130 adjudicated? _____________________________
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <div class="border text text-center bg-color-gray py-1">
+                <strong>To be completed by an attorney or accredited representative</strong> (if any).
+            </div>
+            <div class="">
+                <div class="border-l border-bottom border-r" style="float:left; width:18%;">
+                    <div class="p-1" style="float:left; width:15%;">
+                        <input type="checkbox" class="checkboxState">
                     </div>
-                    <div class="mt-1" style="float:center; margin-left:10%; width:30%;">
-                        Date of Birth
+                    <div class="py-2 text font-bold" style="margin-left:20%; width:80%; margin-bottom:0.73rem;">
+                        Select this box if <br> Form G-28 is <br> attached.
                     </div>
-                    <div class="italic mt-1" style="float:center; margin-left:40%; width:25%;">
-                        (mm/dd/yyyy)
-                    </div>
-                    <div style="float:center; margin-left:65%; width:3%;">
-                        <img src="{{$playBase64}}" alt=">" width="10px" style="float:center;" class="mt-2">
-                    </div>
-                    <div style="margin-left:68%; width:32%;">
+                </div>
+                <div class="border-r border-bottom" style="float:center; width:22%; margin-left:18%;">
+                    <div class="py-2 px-1 text " style="width:90%;">
+                        <strong>Volag Number</strong> <br> (if any) <br> 
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="mt-2 text w-full">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        9.
+                <div class="border-r border-bottom" style="float:center; width:27%; margin-left:40%;">
+                    <div class="py-2 px-1 text" style="width:90%;">
+                        <strong>Attorney State Bar Number</strong> <br> (if applicable) <br> 
+                        <input type="text" class="inputs">
                     </div>
-                    <div class="w-9-10" style="margin-left: 10%;">
-                        U.S. Social Security Number <i>(if any)</i>
+                </div>
+                <div class="border-bottom border-r" style="float:right; width:33%; margin-left:67%;">
+                    <div class="py-2 px-1 text" style="width:90%;">
+                        <strong>Attorney or Accredited Representative</strong> <br>
+                        <strong>USCIS Online Account Number</strong> (if any) <br> 
+                        <input type="text" class="inputs">
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text font-bold" style="margin-top:4.85rem;">
+            <div style="float:left; width:3%;">
+                <img src="{{$playBase64}}" alt="" width="50%">
+            </div>
+            <div style="float:center; margin-left:3%;">
+                START HERE - Type or print in black ink.
+            </div>
+        </div>
+
+        <div class="text border text-center py-1" style="margin-top:1.25rem;">
+            If you need extra space to complete any section of this petition, use the space provided in <strong>Part 9. Additional Information. <br>
+            Complete and submit as many copies of Part 9., as necessary, with your petition.</strong>
+        </div>
+
+        <div class="w-full mt-3">
+            <div style="width:49%; float:left;">
+                <div class="px-1 bg-color-gray border">
+                    <strong>Part 1. Relationship</strong> (You are the Petitioner. Your <br> 
+                    relative is the Beneficiary)
                 </div>
                 <div class="mt-1">
-                    <div style="width:54%; float:left;">
-                        &nbsp;
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        1.
                     </div>
-                    <div class="flex font-bold justify-right" style="float:center; margin-left:54%; width: 5%;">
-                        <img src="{{$playBase64}}" alt=">" width="10px" class="mt-2">
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            I am filling this petition for my (select <strong>only one</strong> box):
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; with:2%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; with:25%; margin-left:5%;">
+                                Spouse
+                            </div>
+                            <div style="float:center; with:5%; margin-left:25%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; with:20%; margin-left:30%;">
+                                Parent
+                            </div>
+                            <div style="float:center; with:5%; margin-left:50%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; with:20%; margin-left:55%;">
+                                Brother/Sister
+                            </div>
+                            <div style="float:center; with:5%; margin-left:80%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; with:20%; margin-left:85%;">
+                                Child
+                            </div>
+                        </div>
                     </div>
-                    <div class="border w-full" style="margin-left:59%; width:auto;">
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; float:left; ">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 15px; float:center;">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 30px; float:center;">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 45px; float:center;">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 60px; float:center;">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 75px; float:center;">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 90px; float:center;">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 105px; float:center;">&nbsp;</div>
-                        <div style="border: solid 1px #B9B9B9; height:20px; width: 15px; margin-left: 120px; ">&nbsp;</div>
+                </div>
+
+                <div class="mt-1" style="margin-top:1.5rem;">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        2.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            If you are filing this petition for your child or parent, <br>
+                            select the box that describes your relationship (select <strong>only<br>one</strong> box):
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; with:5%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="with:94%; margin-left:6%;">
+                                Child was born to parents who were married to each <br>
+                                other at the time of the child's birth
+                            </div>
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; with:5%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="with:94%; margin-left:6%;">
+                                Stepchild/Stepparent
+                            </div>
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; with:5%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="with:94%; margin-left:6%;">
+                                Child was born to parents who were not married to <br>
+                                each other at the time of the child's birth
+                            </div>
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; with:5%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="with:94%; margin-left:6%;">
+                                Child was adopted (not an Orphan or Hague <br>
+                                Convention adoptee)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-1" style="margin-top:1.5rem;">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        3.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            If the beneficiary is your brother/sister, are you related by <br>
+                            adoption?
+                        </div>
+                        <div class="">
+                            <div style="float:center; with:5%; margin-left:60%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; with:7%; margin-left:67%;">
+                                Yes
+                            </div>
+                            <div style="float:center; with:5%; margin-left:74%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="with:7%; margin-left:81%;">
+                                No
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-1" style="margin-top:1.5rem;">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        4.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            If the beneficiary is your brother/sister, are you related by <br>
+                            adoption?
+                        </div>
+                        <div class="">
+                            <div style="float:center; with:5%; margin-left:60%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; with:7%; margin-left:67%;">
+                                Yes
+                            </div>
+                            <div style="float:center; with:5%; margin-left:74%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="with:7%; margin-left:81%;">
+                                No
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div style="float:right; width:49%; margin-left:51%;">
+                <div class="px-1 py-1 bg-color-gray border">
+                    <strong>Part 2. Information About You</strong> (Petitioner)
+                </div>
+
+                <div class="mt-1">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        1.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            Alien Registration Number (A-Number) (if any)
+                        </div>
+                        <div class="mt-1">
+                            <div class="mt-1" style="float:center; with:5%; margin-left:30%;">
+                                <img src="{{$playBase64}}" alt="" width="5%" >
+                            </div>
+                            <div class="font-bold" style="float:center; with:5%; margin-left:35%;">
+                                A
+                            </div>
+                            <div class="font-bold" style="float:center; with:5%; margin-left:40%;">
+                                -
+                            </div>
+                            <div class="cell-thin cell-thin-b"  style="float:center; margin-left:45%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:50%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:55%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:60%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:65%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:70%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:75%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:80%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-e"  style="margin-left:85%; width:5%;">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-1">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        2.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            USCIS Online Account Number (if any)
+                        </div>
+                        <div class="mt-1">
+                            <div class="mt-1" style="float:center; with:5%; margin-left:25%;">
+                                <img src="{{$playBase64}}" alt="" width="5%">
+                            </div>
+                            <div class="cell-thin cell-thin-b"  style="float:center; margin-left:30%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:35%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:40%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:45%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:50%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:55%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:60%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:65%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:70%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:75%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:80%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-e"  style="margin-left:85%; width:5%;">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-1">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        3.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            U.S. Social Security Number (if any)
+                        </div>
+                        <div class="mt-1">
+                            <div class="mt-1" style="float:center; with:5%; margin-left:40%;">
+                                <img src="{{$playBase64}}" alt="" width="5%">
+                            </div>
+                            <div class="cell-thin cell-thin-b"  style="float:center; margin-left:45%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:50%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:55%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:60%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:65%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:70%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:75%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-m"  style="float:center; margin-left:80%; width:5%;">
+                                &nbsp;
+                            </div>
+                            <div class="cell-thin cell-thin-e"  style="margin-left:85%; width:5%;">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2 py-1 px-1 font-bold bg-color-gray italic">
+                    Your Full Name
+                </div>
+
+                <div class="mt-1">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        4.a.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Family Name <br>
+                        (Last Name)
+                    </div>
+                    <div class="mt-1" style="width:60%; margin-left:35%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-1">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        4.b.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Given Name <br>
+                        (First Name)
+                    </div>
+                    <div class="mt-1" style="width:60%; margin-left:35%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-1">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        4.c.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Middle Name
+                    </div>
+                    <div class="mt-1" style="width:60%; margin-left:35%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+            </div>
         </div>
+    
 
         <div class="w-full">&nbsp;</div>
 
@@ -1029,7 +1190,7 @@ h4{
                 Form I-131 04/24/19 C
             </div>
             <div class="text" style="margin-left:80%; width:20%; text-align:right;">
-                Page 1 of 5
+                Page 1 of 12
             </div>
         </footer>
 
