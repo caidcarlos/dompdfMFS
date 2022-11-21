@@ -394,10 +394,14 @@ input.checkboxState{
     font-size: .75rem;
 }
 
+.text2{
+    font-size: .8rem;
+}
+
 .link{
     color: blue;
     text-decoration: underline;
-    font-size: .5rem;
+    font-size: .7rem;
 }
 
 .italic{
@@ -1187,7 +1191,7 @@ h4{
 
         <footer>
             <div class="text" style="float:left; text-align:left; margin-left:-48%;">
-                Form I-131 04/24/19 C
+                Form I-131 Edition 01/20/21
             </div>
             <div class="text" style="margin-left:80%; width:20%; text-align:right;">
                 Page 1 of 12
@@ -1199,475 +1203,637 @@ h4{
         <div class="separator">
 
         </div>
-        <div class="w-full mt-2 sec-title-nob font-bold border">
-            Part 2. Application Type
-        </div>
-        <div class="mt-2">
-            <div class="" style="float:left; width:48%;">
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.a.
-                    </div>
-                    <div class="w-1-10 font-bold" style="margin-left:10%; float:center;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="" style="margin-left:20%; width: 80%">
-                        I am a permanent resident or conditional resident of <br>
-                        the United States, and I am applying for a reentry <br>
-                        permit.
-                    </div>
+
+        <div class="w-full mt-4">
+            <div style="float:left; width:47%;">
+                <div class="w-full sec-title-nob border">
+                    <strong>Part 2. Information About You</strong> (Petitioner) (continued)
                 </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.b.
-                    </div>
-                    <div class="w-1-10 font-bold" style="float:center; margin-left:10%">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="" style="margin-left:20%; width: 80%">
-                        I now hold U.S. refugee or asylee status, and I am <br> 
-                        applying for a Refugee Travel Document.
-                    </div>
+                <div class="w-full sec-title-nob mt-4 italic">
+                    <strong>Other Names Used</strong> (if any)
                 </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.c.
-                    </div>
-                    <div class="w-1-10 font-bold" style="float:center; margin-left:10%">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="" style="width: 80%; margin-left:20%">
-                        I am a permanent resident as a direct result of refugee <br>
-                        or asylee status, and I am applying for a Refugee <br>
-                        Travel Document.
-                    </div>
+                <div class="w-full text mt-2">
+                    Provide all other names you have ever used, including aliases, <br>
+                    maiden name, and nicknames.
                 </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.d.
-                    </div>
-                    <div class="w-1-10 font-bold" style="float:center; margin-left:10%;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="" style="width: 80%" style="margin-left:20%;">
-                        I am applying for an Advance Parole Document to <br> 
-                        allow me to return to the United States after <br>
-                        temporary foreign travel.
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.e.
-                    </div>
-                    <div class="w-1-10 font-bold" style="float:center; margin-left:10%;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="" style="width: 80%" style="margin-left:20%;">
-                        I am outside the United States, and I am applying for <br>
-                        an Advance Parole Document.
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        1.f.
-                    </div>
-                    <div class="w-1-10 font-bold" style="float:center; margin-left:10%">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="" style="width: 80%" style="margin-left:20%;">
-                        I am applying for an Advance Parole Document for a <br>
-                        person who is outside the United States
-                    </div>
-                </div>
-                <div class="w-full text mt-4">
-                    If you checked box "1.f." provide the following information <br>
-                    about that person in 2.a. through 2.p.
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.a.
-                    </div>
-                    <div class="" style="float:center; width: 25%; margin-left:10%;">
-                        Family Name <br>
-                        <i>(Last Name)</i>
-                    </div>
-                    <div class="w-full" style="margin-left:35%; width: 65%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.b.
-                    </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%">
-                        Given Name <br>
-                        <i>(First Name)</i>
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.c.
-                    </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%;">
-                        Middle Name
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="mt-2 text w-full flex">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.d.
-                    </div>
-                    <div class="w-1-4" style="float:center; margin-left:10%;">
-                        Date of Birth
-                    </div>
-                    <div class="text italic" style="float:center; margin-left:35%; width:30%">
-                        (mm/dd/yyyy)
-                    </div>
-                    <div class="flex" style="width: 3%; float:center; margin-left:65%">
-                        <img src="{{$playBase64}}" alt=">" class="mt-2" width="10px">
-                    </div>
-                    <div class="flex" style="width: 31%; margin-left:69%">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-            </div>
-            <div class="" style="float: right; width:48%; margin-left:52%">
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.e.
-                    </div>
-                    <div class="w-9-10"  style="margin-left:10%;">
-                        Country of Birth <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold"  style="float:left;">
-                        2.f.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%">
-                        Country of Citizenship <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.g.
-                    </div>
-                    <div class="" style="width: 40%; float:center; margin-left:10%;">
-                        Daytime Phone Number
-                    </div>
-                    <div class="mr-1" style="float:center; width:3%; height:1.15rem; margin-left:50%;">
-                        <div class="mr-1 ml-1">
-                            (
+
+                <div class="w-full text mt-2">
+                    <div class="mt-1">
+                        <div class="text font-bold" style="width:10%; float:left;">
+                            5.a.
+                        </div>
+                        <div class="text" style="float:center; width:30%; margin-left:10%;">
+                            Family Name <br>
+                            (Last Name)
+                        </div>
+                        <div class="mt-1" style="width:65%; margin-left:35%;">
+                            <input type="text" class="inputs">
                         </div>
                     </div>
-                    <div class="border" style="float:center; width:12%; height:1.15rem; margin-left:53%;">
-                        &nbsp;
-                    </div>
-                    <div class="" style="float:center; width:3%; height:1.15rem; margin-left:65%;">
-                        <div class="ml-1">
-                            )
+    
+                    <div class="mt-1">
+                        <div class="text font-bold" style="width:10%; float:left;">
+                            5.b.
+                        </div>
+                        <div class="text" style="float:center; width:30%; margin-left:10%;">
+                            Given Name <br>
+                            (First Name)
+                        </div>
+                        <div class="mt-1" style="width:65%; margin-left:35%;">
+                            <input type="text" class="inputs">
                         </div>
                     </div>
-                    <div class="border ml-1" style="float:center; width:12%; height:1.15rem; margin-left:68%;">
-                        &nbsp;
-                    </div>
-                    <div class="ml-1 mr-1" style="float:center; width:3%; height:1.15rem; margin-left:80%;">
-                        <div class="ml-1 mr-1">
-                            -
+    
+                    <div class="mt-1">
+                        <div class="text font-bold" style="width:10%; float:left;">
+                            5.c.
+                        </div>
+                        <div class="text" style="float:center; width:30%; margin-left:10%;">
+                            Middle Name
+                        </div>
+                        <div class="mt-1" style="width:65%; margin-left:35%;">
+                            <input type="text" class="inputs">
                         </div>
                     </div>
-                    <div class="border" style="width:17%; height:1.15rem; margin-left:83%;">
-                        &nbsp;
-                    </div>
                 </div>
-                <div class="mt-2 sec-title-nob font-bold italic">
-                    Physical Address (If checked box 1.f.)
+
+                <div class="w-full font-bold sec-title-nob mt-4 italic">
+                    Other Information
                 </div>
-                <div class="mt-2 flex text">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.h.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        In Care of Name <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.i.
-                    </div>
-                    <div class="" style="width: 25%;" style="float:center; margin-left:10%">
-                        Street Number <br>
-                        and Name
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.j.
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:10%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Apt.
+
+                <div class="w-full text mt-2">
+                    <div class="mt-1">
+                        <div class="text font-bold" style="width:10%; float:left;">
+                            6.
                         </div>
-                        <div  style="float: right; width:50%;">
+                        <div class="text" style="width:90%; margin-left:10%;">
+                            City/Town/Village of Birth <br>
+                            <input type="text" class="inputs">
+                        </div>
+                    </div>
+    
+                    <div class="mt-1">
+                        <div class="text font-bold" style="width:10%; float:left;">
+                            7.
+                        </div>
+                        <div class="text" style="width:90%; margin-left:10%;">
+                            Country of Birth <br>
+                            <input type="text" class="inputs">
+                        </div>
+                    </div>
+    
+                    <div class="mt-1">
+                        <div class="text font-bold" style="width:10%; float:left;">
+                            8.
+                        </div>
+                        <div class="text" style="float:center; width:60%; margin-left:10%;">
+                            Date of Birth (mm/dd/yyyy)
+                        </div>
+                        <div class="mt-1" style="width:30%; margin-left:70%;">
+                            <input type="text" class="inputs">
+                        </div>
+                    </div>
+    
+                    <div class="mt-1">
+                        <div class="text font-bold" style="width:10%; float:left;">
+                            9.
+                        </div>
+                        <div class="text" style="float:center; width:20%; margin-left:10%;">
+                            Sex
+                        </div>
+                        <div class="text" style="float:center; width:5%; margin-left:30%;">
                             <input type="checkbox" class="checkboxState">
                         </div>
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:25%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Ste.
+                        <div class="text mt-1" style="float:center; width:10%; margin-left:37%;">
+                            Male
                         </div>
-                        <div  style="float: right; width:50%;">
+                        <div class="text" style="float:center; width:5%; margin-left:47%;">
                             <input type="checkbox" class="checkboxState">
                         </div>
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:40%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Flr.
-                        </div>
-                        <div  style="float: right; width:50%;">
-                            <input type="checkbox" class="checkboxState">
+                        <div class="mt-1" style="width:20%; margin-left:54%;">
+                            Female
                         </div>
                     </div>
-                    <div class="w-full" style="width: 45%; margin-left:55%;">
+                </div>
+
+                <div class="w-full sec-title-nob mt-4 italic" style="height:1.25rem;">
+                    <div class="font-bold" style="float:left; width:60%;">
+                        Mailing Address
+                    </div>
+                    <div class="link" style="margin-left:60%;">
+                        (USPS ZIP Code Lookup)
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        10.a.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        In Care Of Name <br>
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left">
-                        2.k.
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        10.b.
                     </div>
-                    <div class="" style="float:center; margin-left:10%; width: 25%;">
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Street Number <br> and Name
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        10.c.
+                    </div>
+                    <div class="text" style="float:center; width:5%; margin-left:10%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:17%;">
+                        Apt.
+                    </div>
+                    <div class="text" style="float:center; width:7%; margin-left:24%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:31%;">
+                        Ste.
+                    </div>
+                    <div class="text" style="float:center; width:7%; margin-left:38%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:45%;">
+                        Flr.
+                    </div>
+                    <div class="text" style="width:45%; margin-left:55%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        10.d.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
                         City or Town
                     </div>
-                    <div class="w-full" style="margin-left:35%; width:65%;">
+                    <div class="text" style="width:60%; margin-left:40%;">
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.l.
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        10.e.
                     </div>
-                    <div class="" style="float:center; margin-left:10%; width: 15%;">
+                    <div class="text mt-1" style="float:center; width:10%; margin-left:10%;">
                         State
                     </div>
-                    <div class="" style="width: 15%; float:center; margin-left:25%;">
-                        <input type="text" class="inputs">
+                    <div class="text" style="float:center; width:18%; margin-left:20%;">
+                        <select style="width:85%; height:1.15rem; border:1px solid #000; margin-top:.1rem;">
+                            <option selected>&nbsp;</option>
+                        </select>
                     </div>
-                    <div style="width: 5%; float:center; margin-left:40%;">
-
+                    <div class="text font-bold mt-1" style="float:center; width:10%; margin-left:40%;">
+                        10.f.
                     </div>
-                    <div class="font-bold" style="width: 10%; float:center; margin-left:45%;">
-                        2.m.
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:55%;">
+                    <div class="text mt-1" style="float:center; width:17%; margin-left:50%;">
                         ZIP Code
                     </div>
-                    <div class="w-full" style="width: 30%; margin-left:70%;">
+                    <div class="text" style="width:33%; margin-left:67%;">
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.n.
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        10.g.
                     </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%;">
-                        Postal Code
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float: left;">
-                        2.o.
-                    </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%;">
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
                         Province
                     </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
+                    <div class="text" style="width:60%; margin-left:40%;">
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left">
-                        2.p.
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        10.h.
                     </div>
-                    <div class="" style="width: 15%; float:center; margin-left:10%;">
-                        Country
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Postal Code
                     </div>
-                    <div class="w-full" style="width: 75%; margin-left:25%;">
+                    <div class="text" style="width:60%; margin-left:40%;">
                         <input type="text" class="inputs">
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="font-bold border sec-title-nob" style="margin-top:27rem;">
-            Part 3. Processing Information
-        </div>
-        <div class="mt-2">
-            <div class="mt-2 text" style="float:left; width:48%;">
-                <div class="">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        1.
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        10.i.
                     </div>
-                    <div class="w-9-10" style="margin-left:10%;">
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country <br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        11.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
                         <div>
-                            Date of Intended Departure
+                            Is your current mailing address the same as your physical <br> 
+                            address?
                         </div>
-                    </div>
-                </div>
-                <div class="mt-1">
-                    <div class="w-4-10" style="float:left;">
-                        &nbsp;
-                    </div>
-                    <div class="italic mt-1 mr-1" style="float:center; margin-left:40%; width:28%;">
-                        (mm/dd/yyyy)
-                    </div>
-                    <div class="mr-1 mt-1"  style="float:center; width:3%; margin-left:68%;">
-                        <img src="{{$playBase64}}" alt=">" class="mt-2" width="10px">
-                    </div>
-                    <div class="" style="margin-left:72%; width:auto;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="mt-2">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        2.
-                    </div>
-                    <div class="" style="margin-left:10%; width:70%; float:center;">
-                        Expected Length of Trip <i>(in days)</i>
-                    </div>
-                    <div class="" style="margin-left:80%; width:20%;">
-                         <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex mt-2">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        3.a.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%">
-                        Are you, or any person included in this application, now <br>
-                        in exclusion, deportation, removal, or rescission 
-                        proceedings?
                         <div class="">
-                            <div class="" style="width: 70%; float:left;">
-                            </div>
-                            <div class="" style="width: 5%; margin-left:70%; float:center;">
+                            <div style="float:center; with:5%; margin-left:70%;">
                                 <input type="checkbox" class="checkboxState">
                             </div>
-                            <div class="mt-2" style="width: 10%; margin-left:75%; float:center;">
-                                <div class="ml-1">
-                                    Yes
-                                </div>
+                            <div class="mt-1" style="float:center; with:7%; margin-left:77%;">
+                                Yes
                             </div>
-                            <div class="" style="width: 5%; margin-left:85%; float:center;">
+                            <div style="float:center; with:5%; margin-left:84%;">
                                 <input type="checkbox" class="checkboxState">
                             </div>
-                            <div class="ml-1 mt-2" style="width: 10%; margin-left:90%;">
-                                <div class="ml-1">
-                                    No
-                                </div>
+                            <div class="mt-1" style="with:7%; margin-left:91%;">
+                                No
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex mt-2">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        3.b.
+
+                <div class="mt-2 text2">
+                    If you answered "No" to <strong>Item Number 11.</strong>, provide <br> 
+                    information on your physical address in <strong>Item Numbers 12.a. - <br>
+                    13.b.</strong>
+                </div>
+            </div>
+
+            <div style="float:center; width:47%; margin-left:51%;">
+                <div class="w-full sec-title-nob italic font-bold">
+                    Address History
+                </div>
+
+                <div class="w-full text mt-2">
+                    Provide your physical addresses for the last five years, whether 
+                    inside or outside the United States. Provide your current <br>
+                    address first if it is different from your mailing address in <strong>Item <br>
+                    Numbers 10.a. - 10.i.</strong>
+                </div>
+
+                <div class="w-full text mt-2 font-bold">
+                    Physical Address 1
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        12.a.
                     </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        If "Yes", Name of DHS office:
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Street Number <br> and Name
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="mt-1">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        &nbsp;
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        12.b.
                     </div>
-                    <div class="w-9-10" style="margin-left:10%;">
+                    <div class="text" style="float:center; width:5%; margin-left:10%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:17%;">
+                        Apt.
+                    </div>
+                    <div class="text" style="float:center; width:7%; margin-left:24%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:31%;">
+                        Ste.
+                    </div>
+                    <div class="text" style="float:center; width:7%; margin-left:38%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:45%;">
+                        Flr.
+                    </div>
+                    <div class="text" style="width:45%; margin-left:55%;">
                         <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        12.c.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        City or Town
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        12.d.
+                    </div>
+                    <div class="text mt-1" style="float:center; width:10%; margin-left:10%;">
+                        State
+                    </div>
+                    <div class="text" style="float:center; width:18%; margin-left:20%;">
+                        <select style="width:85%; height:1.15rem; border:1px solid #000; margin-top:.1rem;">
+                            <option selected>&nbsp;</option>
+                        </select>
+                    </div>
+                    <div class="text font-bold mt-1" style="float:center; width:10%; margin-left:40%;">
+                        12.e.
+                    </div>
+                    <div class="text mt-1" style="float:center; width:17%; margin-left:50%;">
+                        ZIP Code
+                    </div>
+                    <div class="text" style="width:33%; margin-left:67%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        12.f.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Province
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        12.g.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Postal Code
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        12.h.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country <br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        13.a.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date From (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        13.b.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date To (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs" value="PRESENT">
+                    </div>
+                </div>
+
+                <div class="w-full mt-4" style="border-bottom:1px solid #000;">
+                    
+                </div>
+
+                <div class="w-full text mt-2 font-bold">
+                    Physical Address 2
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        14.a.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Street Number <br> and Name
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        14.b.
+                    </div>
+                    <div class="text" style="float:center; width:5%; margin-left:10%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:17%;">
+                        Apt.
+                    </div>
+                    <div class="text" style="float:center; width:7%; margin-left:24%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:31%;">
+                        Ste.
+                    </div>
+                    <div class="text" style="float:center; width:7%; margin-left:38%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:7%; margin-left:45%;">
+                        Flr.
+                    </div>
+                    <div class="text" style="width:45%; margin-left:55%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        14.c.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        City or Town
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        14.d.
+                    </div>
+                    <div class="text mt-1" style="float:center; width:10%; margin-left:10%;">
+                        State
+                    </div>
+                    <div class="text" style="float:center; width:18%; margin-left:20%;">
+                        <select style="width:85%; height:1.15rem; border:1px solid #000; margin-top:.1rem;">
+                            <option selected>&nbsp;</option>
+                        </select>
+                    </div>
+                    <div class="text font-bold mt-1" style="float:center; width:10%; margin-left:40%;">
+                        14.e.
+                    </div>
+                    <div class="text mt-1" style="float:center; width:17%; margin-left:50%;">
+                        ZIP Code
+                    </div>
+                    <div class="text" style="width:33%; margin-left:67%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        14.f.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Province
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        14.g.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Postal Code
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        14.h.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country <br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        15.a.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date From (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+                
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        15.b.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date To (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="w-full sec-title-nob italic font-bold mt-4">
+                    Your Marital Information
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold mt-1" style="width:10%; float:left;">
+                        16.
+                    </div>
+                    <div class="text mt-1" style="float:center; width:70%; margin-left:10%;">
+                        How many times have you been married?
+                    </div>
+                    <div class="text mt-1" style="float:center; width:5%; margin-left:80%;">
+                        <img src="{{$playBase64}}" alt="" width="90%">
+                    </div>
+                    <div class="text" style="width:15%; margin-left:85%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold mt-1" style="width:10%; float:left;">
+                        17.
+                    </div>
+                    <div class="text mt-1" style="width:90%; margin-left:10%;">
+                        <div>
+                            Current Marital Status
+                        </div>
+                        <div>
+                            <div style="float:left; width:7%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; width:43%; margin-left:7%;">
+                                Single, Never Married
+                            </div>
+                            <div style="float:center; width:7%; margin-left:50%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; width:18%; margin-left:57%;">
+                                Married
+                            </div>
+                            <div style="float:center; width:7%; margin-left:75%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="width:18%; margin-left:82%;">
+                                Divorced
+                            </div>
+                        </div>
+                        <div>
+                            <div style="float:left; width:7%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; width:18%; margin-left:7%;">
+                                Widowed
+                            </div>
+                            <div style="float:center; width:7%; margin-left:25%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; width:18%; margin-left:32%;">
+                                Separated
+                            </div>
+                            <div style="float:center; width:7%; margin-left:50%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="width:18%; margin-left:57%;">
+                                Annulled
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="text" style="float:right; width:48%; marging-left:52%;">
-                <div class="mt-2">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        4.a.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        Have you ever before been issued a reentry permit or 
-                        Refugee Travel Document? <i>(If "Yes" give the following 
-                        information for the last document issued to you):</i>
-                        <div class="">
-                            <div class="" style="width: 70%; float:left;">
-                            </div>
-                            <div class="" style="width: 5%; margin-left:70%; float:center;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="mt-2" style="width: 10%; margin-left:75%; float:center;">
-                                <div class="ml-1">
-                                    Yes
-                                </div>
-                            </div>
-                            <div class="" style="width: 5%; margin-left:85%; float:center;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="ml-1 mt-2" style="width: 10%; margin-left:90%;">
-                                <div class="ml-1">
-                                    No
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-2 text w-full flex">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        4.b.
-                    </div>
-                    <div class="w-1-4" style="float:center; margin-left:10%;">
-                        Date Issued
-                    </div>
-                    <div class="text italic" style="float:center; margin-left:35%; width:30%">
-                        (mm/dd/yyyy)
-                    </div>
-                    <div class="flex" style="width: 3%; float:center; margin-left:65%">
-                        <img src="{{$playBase64}}" alt=">" class="mt-2" width="10px">
-                    </div>
-                    <div class="flex" style="width:29%; margin-left:71%">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex mt-2">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        4.c.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        Disposition <i>(attached, lost, etc.):</i> <br>
-                    </div>
-                </div>
-                <div class="mt-1">
-                    <div class="font-bold w-1-10" style="float:left;">
-                        &nbsp;
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="font-bold text" style="margin-top: 12.5rem; font-size:.8rem;">
-            If you are applying for a non-DACA related Advance Parole Document, skip to Part 7; <i>DACA recipients must complete Part 4 
-            before skipping to Part 7.</i>
         </div>
 
         <footer>
@@ -1675,7 +1841,7 @@ h4{
                 Form I-131 04/24/19 C
             </div>
             <div class="text" style="margin-left:80%; width:20%; text-align:right;">
-                Page 2 of 5
+                Page 2 of 12
             </div>
         </footer>
 
@@ -1685,416 +1851,559 @@ h4{
         <div class="separator">
 
         </div>
-        <div class="mt-2 border sec-title-nob">
-            <strong>Part 3. Processing Information</strong> <i>(continued)</i>
-        </div>
-        <div class="mt-2 w-full">
-            <div class="" style="float:left; width:48%">
-                <div class="text w-full">
-                    Where do you want this travel document sent? <i>(Check one)</i>
+
+        <div class="mt-4">
+            <div style="float:left; width:48%;">
+                <div class="border sec-title-nob">
+                    <strong>Part 2. Information About You</strong> (Petitioner) (continued)
                 </div>
-                <div class="mt-2 flex">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        5.
-                    </div>
-                    <div class="w-1-10" style="float:center; margin-left:10%;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="text" style="width: 80%; margin-left:20%;">
-                        To the U.S. address shown in <strong>Part 1 (2.a through
-                        2.i.)</strong> of this form.
-                    </div>
-                </div>
-                <div class="mt-2 flex">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        6.
-                    </div>
-                    <div class="w-1-10" style="float:center; margin-left:10%;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="text" style="width: 80%; margin-left:20%;">
-                        To a U.S. Embassy or consulate at:
-                    </div>
-                </div>
-                <div class="mt-2 flex">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        6.a.
-                    </div>
-                    <div class="text" style="width: 35%; float:center; margin-left:10%">
-                        City or Town
-                    </div>
-                    <div class="text" style="width: 55%; margin-left:45%">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
+
                 <div class="mt-2">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        6.b.
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        18.
                     </div>
-                    <div class="text" style="width: 25%; float:center; margin-left:10%;">
-                        Country
-                    </div>
-                    <div class="text" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="mt-2 flex">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        7.
-                    </div>
-                    <div class="w-1-10" style="float:center; margin-left:10%;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="text" style="width: 80%; margin-left:20%;">
-                        To a DHS office overseas at:
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        <div>
+                            Date of Curent Marriage (if currently married)
+                        </div>
+                        <div>
+                            <div style="">
+                                (mm/dd/yyyy)
+                            </div>
+                            <div style="float:right; width:30%;">
+                                <input type="text" class="inputs">
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="mt-10 sec-title-nob italic">
+                    <strong>Place of Your Current Marriage</strong> (if married)
+                </div>
+
                 <div class="mt-2">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        7.a.
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        19.a.
                     </div>
-                    <div class="text" style="width: 35%; float:center; margin-left:10%;">
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
                         City or Town
                     </div>
-                    <div class="text" style="width: 55%; margin-left:45%">
+                    <div class="text" style="width:60%; margin-left:40%;">
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="mt-2 flex">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        7.b.
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        19.b.
                     </div>
-                    <div class="text" style="width: 25%; float:center; margin-left:10%;">
-                        Country
-                    </div>
-                    <div class="text" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="w-full text mt-2">
-                    If you checked "6" or "7", where should the notice to pick up
-                    the travel document be sent?
-                </div>
-                <div class="mt-2 flex">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        8.
-                    </div>
-                    <div class="w-1-10"  style="float:center; margin-left:10%;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="text" style="width: 80%; margin-left:20%;">
-                        To the address shown in <strong>Part 2 (2.h. through 2.p.)</strong>
-                        of this form.
-                    </div>
-                </div>
-                <div class="mt-2 flex">
-                    <div class="text font-bold w-1-10" style="float:left;">
-                        9.
-                    </div>
-                    <div class="w-1-10"  style="float:center; margin-left:10%;">
-                        <input type="checkbox" class="checkboxState">
-                    </div>
-                    <div class="text" style="width: 80%; margin-left:20%;">
-                        To the address shown in <strong>Part 3 (10.a. through 10.i.)</strong>
-                        of this form.:
-                    </div>
-                </div>
-            </div>
-            <div class="" style="width:48%; margin-left:52%; float: right;">
-                <div class="mt-2 flex text">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        10.a.
-                    </div>
-                    <div class="w-9-10" style="margin-left:10%;">
-                        In Care of Name <br>
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        10.b.
-                    </div>
-                    <div class="" style="width: 25%;" style="float:center; margin-left:10%">
-                        Street Number <br>
-                        and Name
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        10.c.
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:10%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Apt.
-                        </div>
-                        <div  style="float: right; width:50%;">
-                            <input type="checkbox" class="checkboxState">
-                        </div>
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:25%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Ste.
-                        </div>
-                        <div  style="float: right; width:50%;">
-                            <input type="checkbox" class="checkboxState">
-                        </div>
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:40%;">
-                        <div class="mt-1" style="float: left; width:50%;">
-                            Flr.
-                        </div>
-                        <div  style="float: right; width:50%;">
-                            <input type="checkbox" class="checkboxState">
-                        </div>
-                    </div>
-                    <div class="w-full" style="width: 45%; margin-left:55%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left">
-                        10.d.
-                    </div>
-                    <div class="" style="float:center; margin-left:10%; width: 25%;">
-                        City or Town
-                    </div>
-                    <div class="w-full" style="margin-left:35%; width:65%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        10.e.
-                    </div>
-                    <div class="" style="float:center; margin-left:10%; width: 15%;">
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
                         State
                     </div>
-                    <div class="" style="width: 15%; float:center; margin-left:25%;">
-                        <input type="text" class="inputs">
+                    <div class="text" style="width:20%; margin-left:40%;">
+                        <select style="width:85%; height:1.15rem; border:1px solid #000; margin-top:.1rem;">
+                            <option selected>&nbsp;</option>
+                        </select>
                     </div>
-                    <div style="width: 5%; float:center; margin-left:40%;">
+                </div>
 
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        19.c.
                     </div>
-                    <div class="font-bold" style="width: 10%; float:center; margin-left:45%;">
-                        10.f
-                    </div>
-                    <div class="" style="width: 15%; float:center; margin-left:55%;">
-                        ZIP Code
-                    </div>
-                    <div class="w-full" style="width: 30%; margin-left:70%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        10.g
-                    </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%;">
-                        Postal Code
-                    </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
-                        <input type="text" class="inputs">
-                    </div>
-                </div>
-                <div class="flex text mt-2">
-                    <div class="w-1-10 font-bold" style="float: left;">
-                        10.h
-                    </div>
-                    <div class="" style="width: 25%; float:center; margin-left:10%;">
+                    <div class="text" style="float:center; width:25%; margin-left:10%;">
                         Province
                     </div>
-                    <div class="w-full" style="width: 65%; margin-left:35%;">
+                    <div class="text" style="width:65%; margin-left:35%;">
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left">
-                        10.i
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        19.d.
                     </div>
-                    <div class="" style="width: 15%; float:center; margin-left:10%;">
-                        Country
-                    </div>
-                    <div class="w-full" style="width: 75%; margin-left:25%;">
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country <br>
                         <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="text mt-2">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        10.j.
+
+                <div class="mt-4 sec-title-nob italic">
+                    <strong>Names of All Your Spouses</strong> (if any)
+                </div>
+
+                <div class="mt-2 text2 w-full">
+                    Provide information on your current spouse (if currently married) 
+                    first and then list all your prior spouses (if any).
+                </div>
+
+                <div class="mt-2 text2 font-bold w-full">
+                    Spouse 1
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        20.a.
                     </div>
-                    <div class="" style="width: 40%; float:center; margin-left:10%;">
-                        Daytime Phone Number
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Family Name <br> (Last Name)
                     </div>
-                    <div class="mr-1" style="float:center; width:3%; height:1.15rem; margin-left:50%;">
-                        <div class="mr-1 ml-1">
-                            (
-                        </div>
-                    </div>
-                    <div class="border" style="float:center; width:12%; height:1.15rem; margin-left:53%;">
-                        &nbsp;
-                    </div>
-                    <div class="" style="float:center; width:3%; height:1.15rem; margin-left:65%;">
-                        <div class="ml-1">
-                            )
-                        </div>
-                    </div>
-                    <div class="border ml-1" style="float:center; width:12%; height:1.15rem; margin-left:68%;">
-                        &nbsp;
-                    </div>
-                    <div class="ml-1 mr-1" style="float:center; width:3%; height:1.15rem; margin-left:80%;">
-                        <div class="ml-1 mr-1">
-                            -
-                        </div>
-                    </div>
-                    <div class="border" style="width:17%; height:1.15rem; margin-left:83%;">
-                        &nbsp;
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="w-full font-bold sec-title-nob border" style="margin-top:21.5rem;">
-            Part 4. Information About Your Porposed Travel
-        </div>
-        <div class="mt-2 w-full">
-            <div class="" style="width:48%; float:left;">
-                <div class="text font-bold w-1-10" style="float:left;">
-                    1.a.
-                </div>
-                <div class="text" style="width: 90%; margin-left:10%;">
-                    Purpose of trip. <i>(If you need more space, continue on a
-                    separate sheet of paper.)</i>
-                </div>
-            </div>
-            <div class="" style="width:48%; float:right; margin-left:52%;">
-                <div class="text font-bold w-1-10" style="float:left;">
-                    1.b.
-                </div>
-                <div class="text" style="width: 90%; margin-left:10%;">
-                    List the countries you intend to visit. <i>(If you need more
-                    space, continue on a separate sheet of paper.)</i>
-                </div>
-            </div>
-        </div>
-        <div class="w-full font-bold sec-title-nob border" style="margin-top:10rem;">
-            Part 5. Complete Only If Applying for a Re-entry Permit
-        </div>
-        <div class="mt-2 w-full">
-            <div class="text" style="width: 48%; float:left;">
-                Since becoming a permanent resident of the United States (or
-                during the past 5 years, whichever is less) how much total time
-                have you spent outside the United States?
-                <div class="">
-                    <div class="" style="width: 48%; float:left;">
-                        <div class="mt-2">
-                            <div class="text font-bold mt-1" style="width: 15%; float:left;">
-                                1.a.
-                            </div>
-                            <div style="width: 15%; float:center; margin-left:15%;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="text mt-1" style="margin-left: 30%; width:70%;">
-                                less than 6 months
-                            </div>
-                        </div>
-                        <div class="mt-2">
-                            <div class="text font-bold mt-1" style="width: 15%; float:left;">
-                                1.b.
-                            </div>
-                            <div style="width: 15%; float:center; margin-left:15%;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="text mt-1" style="margin-left: 30%; width:70%;">
-                                6 months to 1 year
-                            </div>
-                        </div>
-                        <div class="mt-2">
-                            <div class="text font-bold mt-1" style="width: 15%; float:left;">
-                                1.c.
-                            </div>
-                            <div style="width: 15%; float:center; margin-left:15%;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="text mt-1" style="margin-left: 30%; width:70%;">
-                                1 to 2 years
-                            </div>
-                        </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        20.b.
                     </div>
-                    <div class="" style="width: 48%; float:right; margin-left:52%;">
-                        <div class="mt-2">
-                            <div class="text font-bold mt-1" style="width: 15%; float:left;">
-                                1.d.
-                            </div>
-                            <div style="width: 15%; float:center; margin-left:15%;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="text mt-1" style="margin-left: 30%; width:70%;">
-                                2 to 3 years
-                            </div>
-                        </div>
-                        <div class="mt-2">
-                            <div class="text font-bold mt-1" style="width: 15%; float:left;">
-                                1.e.
-                            </div>
-                            <div style="width: 15%; float:center; margin-left:15%;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="text mt-1" style="margin-left: 30%; width:70%;">
-                                3 to 4 years
-                            </div>
-                        </div>
-                        <div class="mt-2">
-                            <div class="text font-bold mt-1" style="width: 15%; float:left;">
-                                1.f.
-                            </div>
-                            <div style="width: 15%; float:center; margin-left:15%;">
-                                <input type="checkbox" class="checkboxState">
-                            </div>
-                            <div class="text mt-1" style="margin-left: 30%; width:70%;">
-                                more than 4 years
-                            </div>
-                        </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Given Name <br> (First Name)
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
                     </div>
                 </div>
-            </div>
-            <div class="" style="width: 48%; margin-left: 52%; float:right;">
-                <div class="text">
-                    <div class="w-1-10 font-bold" style="float:left;">
-                        2.
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        20.c.
                     </div>
-                    <div class="text" style="width:90%; margin-left:10%; float:right">
-                        Since you became a permanent resident of the United
-                        States, have you ever filed a Federal income tax return as
-                        a nonresident or failed to file a Federal income tax return
-                        because you considered yourself to be a nonresident? <i>(If
-                        "Yes" give details on a separate sheet of paper.)</i>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Middle Name
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
                     </div>
                 </div>
-                <div class="text" style="margin-top:4rem;">
-                    <div class="" style="width: 70%; float:left;">
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        21.
                     </div>
-                    <div class="" style="width: 5%; margin-left:70%; float:center;">
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date Marriage Ended (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2" style="border-bottom:1px solid #000; width:100%;">
+                </div>
+
+                <div class="mt-2 text2 font-bold w-full">
+                    Spouse 2
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        22.a.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Family Name <br> (Last Name)
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        22.b.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Given Name <br> (First Name)
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        22.c.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Middle Name
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        23.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date Marriage Ended (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2 sec-title-nob font-bold italic">
+                    Information About Your Parents
+                </div>
+
+                <div class="mt-2 text2 font-bold w-full">
+                    Parent 1's Information
+                </div>
+
+                <div class="mt-2 text2 w-full">
+                    Full Name of Parent 1
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        24.a.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Family Name <br> (Last Name)
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        24.b.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Given Name <br> (First Name)
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        24.c.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Middle Name
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        25.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date of Birth (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        26.
+                    </div>
+                    <div class="text" style="float:center; width:20%; margin-left:10%;">
+                        Sex
+                    </div>
+                    <div class="text" style="float:center; width:5%; margin-left:30%;">
                         <input type="checkbox" class="checkboxState">
                     </div>
-                    <div class="mt-2" style="width: 10%; margin-left:75%; float:center;">
-                        <div class="ml-1">
-                            Yes
-                        </div>
+                    <div class="text mt-1" style="float:center; width:10%; margin-left:37%;">
+                        Male
                     </div>
-                    <div class="" style="width: 5%; margin-left:85%; float:center;">
+                    <div class="text" style="float:center; width:5%; margin-left:47%;">
                         <input type="checkbox" class="checkboxState">
                     </div>
-                    <div class="ml-1 mt-2" style="width: 10%; margin-left:90%;">
-                        <div class="ml-1">
-                            No
-                        </div>
+                    <div class="text mt-1" style="width:20%; margin-left:54%;">
+                        Female
                     </div>
                 </div>
             </div>
+            <div style="float:right; margin-left:52%; width:48%;">
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        27.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country of Birth<br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        28.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        City/Town/Village of Residence<br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        29.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country of Residence<br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2" style="border-bottom:1px solid #000;">
+
+                </div>
+
+                <div class="mt-2 text2 font-bold w-full">
+                    Parent 1's Information
+                </div>
+
+                <div class="mt-2 text2 w-full">
+                    Full Name of Parent 1
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        30.a.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Family Name <br> (Last Name)
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        30.b.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Given Name <br> (First Name)
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        30.c.
+                    </div>
+                    <div class="text" style="float:center; width:30%; margin-left:10%;">
+                        Middle Name
+                    </div>
+                    <div class="text" style="width:60%; margin-left:40%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        31.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date of Birth (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        32.
+                    </div>
+                    <div class="text" style="float:center; width:20%; margin-left:10%;">
+                        Sex
+                    </div>
+                    <div class="text" style="float:center; width:5%; margin-left:30%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="float:center; width:10%; margin-left:37%;">
+                        Male
+                    </div>
+                    <div class="text" style="float:center; width:5%; margin-left:47%;">
+                        <input type="checkbox" class="checkboxState">
+                    </div>
+                    <div class="text mt-1" style="width:20%; margin-left:54%;">
+                        Female
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        33.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country of Birth <br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        34.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        City/Town/Village of Residence<br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        35.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Country of Residence<br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2 border sec-title-nob italic">
+                    <strong>Additional Information About You</strong> (Petitioner)
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        36.
+                    </div>
+                    <div class="text" style="margin-left:10%; width:90%;">
+                        <div>
+                            I am a (Select <strong>only one</strong> box):
+                        </div>
+                        <div>
+                            <div style="float:left; width:7%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; width:30%; margin-left:7%;">
+                                U.S. Citizen
+                            </div>
+                            <div style="float:center; width:7%; margin-left:37%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="width:56%; margin-left:44%;">
+                                Lawful Permanent Resident
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-3 text2 font-bold">
+                    If you are a U.S. citizen, complete Item Number 37.
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        37.
+                    </div>
+                    <div class="text" style="margin-left:10%; width:90%;">
+                        <div>
+                            My citizenship was acquired through (Select only one <br>
+                            box):
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; width:10%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="width:90%; margin-left:10%;">
+                                Birth in the United States
+                            </div>
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; width:10%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="width:90%; margin-left:10%;">
+                                Naturalization
+                            </div>
+                        </div>
+                        <div class="mt-1">
+                            <div style="float:left; width:10%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="width:90%; margin-left:10%;">
+                                Parents
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="float:left; width:10%;">
+                        38.
+                    </div>
+                    <div class="text" style="margin-left:10%; width:90%;">
+                        <div>
+                            Have you obtained a Certificate of Naturalization or a 
+                        </div>
+                        <div>
+                            Certificate of Citizenship? 
+                        </div>
+                        <div>
+                            <div style="float:left; width:7%; margin-left:72%">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="float:center; width:7%; margin-left:79%;">
+                                Yes
+                            </div>
+                            <div style="float:center; width:7%; margin-left:86%;">
+                                <input type="checkbox" class="checkboxState">
+                            </div>
+                            <div class="mt-1" style="width:7%; margin-left:93%;">
+                                No
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2 text2">
+                    If you answered "Yes" to <strong>Item Number 38.</strong>, complete the 
+                    following:
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        39.a.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Certificate Number<br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        39.b.
+                    </div>
+                    <div class="text" style="width:90%; margin-left:10%;">
+                        Place of Issuance<br>
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="text font-bold" style="width:10%; float:left;">
+                        39.c.
+                    </div>
+                    <div class="text" style="float:center; width:60%; margin-left:10%;">
+                        Date of Issuance (mm/dd/yyyy)
+                    </div>
+                    <div class="text" style="width:30%; margin-left:70%;">
+                        <input type="text" class="inputs">
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-        <div class="w-full">&nbsp;</div>
 
         <footer>
             <div class="text" style="float:left;">
